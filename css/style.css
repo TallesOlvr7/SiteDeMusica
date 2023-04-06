@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+
+:root{
+    --font-logo: 'Bebas Neue', cursive;
+    --font-text: 'Nunito Sans', sans-serif;
+    --cor1: #6d226d;
+    --cor2: #e22e91;
+    --cor3: #fd4aac;
+    --cor4: #AF0171;
+    --cor5: #e1e1e1;
+    --cor6: #ffb8df;
+    --cor7: #ffd1eb;
+    --cor8: #cea8be;
+    --cor9: #ff8bcf;
+    --cor10: #ffc4e3;
+    
+
+}
+
+body{
+    background-color: var(--cor7);
+    scroll-behavior: smooth;
+}
+
+.container{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 20vh;
+}
+
+.container-left{
+    background-color: var(--cor3);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text{
+    font-family: var(--font-logo);
+}
+
+.logo-img{
+    height: 48px;
+}
+
+.container-rigth{
+    background-color: var(--cor1);
+    width: 75%;
+    height: 100%;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.lista-link{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    padding-left: 15%;
+    list-style: none;
+    gap: 32px;
+}
+
+.item-link{
+    text-decoration: none;
+    font-family: var(--font-logo);
+    color: var(--cor7);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.item-link:hover{
+    color: var(--cor8);
+    transition: 0.2ms;
+}
+
+.principal{
+    height: 100vh;
+}
+
+.sec1{
+    padding-top: 10%;
+    width: 100%;
+}
+
+.card-titulo{
+    width: 100%;
+}
+
+.card-tittle{
+    text-align: center;
+}
+
+.container-sec{
+    width: 100%;
+    margin: 0 auto;
+    left: 0;
+    padding-bottom: 32px;
+}
+
+.container-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px rgb(141, 141, 141);
+    border-radius: 25px;
+    background-color: var(--cor6);
+    
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-paragraph{
+    text-align: justify;
+    padding: 12px;
+}
+
+.card-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.link-card{
+    padding: 3px 10px;
+    color: var(--cor6);
+    background-color: var(--cor3);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-size: 24px;
+    font-family: var(--font-logo);
+}
+
+.link-card:hover{
+    color: var(--cor10);
+    background-color: var(--cor9);
+    transition: 0.2ms;
+}
+
+
+.card-picture{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:32px ;
+}
+
+.image-card{
+    width: 80%;
+    overflow: hidden;
+}
+
+.card-tittle{
+    font-family: var(--font-logo);
+    font-size: 32px;
+}
+
+.card-genero{
+    font-family: var(--font-logo);
+    font-size: 26px;
+}
+
+.card-paragraph{
+    font-family: var(--font-logo);
+}
+
+.sec02{
+    width: 100%;
+    margin-top: 32px;
+   
+}
+
+.recomendacao{
+    padding-top:32px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.recomendacao-desc{
+    text-align: justify;
+}
+
+.recomendacao-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recomendacao-card{
+    width: 40%;
+    background-color: var(--cor6);
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px rgb(141, 141, 141);
+}
+.card-recomendacao-titulo{
+    font-family: var(--font-logo);
+    font-size: 40px;
+    text-align: center;
+}
+
+.recomendacao-tittle{
+    font-size: 48px;
+    font-family: var(--font-logo);
+}
+
+
+.recomendacao-nome{
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 20px;
+}
+
+.recomendacao-artista{
+    font-family: var(--font-text);
+    text-align: center;
+    font-size: 20px;
+}
+
+.recomendacao-desc{
+    font-family: var(--font-text);
+    padding: 0 10%;
+}
+
+.recomendacao-picture{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recomendacao-img{
+    width: 80%;
+}
+
+.ouvir-album{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ouvir-img{
+    width:  20%;
+}
+
+.ouvir-imagem{
+    width: 100%;
+}
+
+.ouvir-escrita{
+    font-family: var(--font-logo);
+    font-size: 32px;
+}
+
+.ouvir-link{
+    color: var(--cor6);
+    background-color: var(--cor3);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: var(--font-logo);
+    padding: 3px 10px;
+}
+
+.ouvir-link:hover{
+    color: var(--cor10);
+    background-color: var(--cor9);
+    transition: 0.2ms;
+}
+
